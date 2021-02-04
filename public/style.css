@@ -1,0 +1,519 @@
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("_font/itc-avant-garde-gothic-demi.ttf");
+}
+
+body{width:98.9%;}
+
+
+/*Links*/
+
+html{
+   scroll-behavior: smooth; /*Significa que o documento inteiro html fica com scroll suave*/
+   overflow-x: hidden;
+}
+
+ /*Formatação cabecalho 1*/
+div#linha-1 {
+    font-size: 15pt;
+    font-family: 'FontLogo';
+    background-color: #A3A3A3;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-left: 18px;
+    width: 100%;
+    height: 47px;
+}
+
+img#mini-email {
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+    position: relative;
+    left: 870px;
+}
+
+img#mini-insta {
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+    position: absolute;
+    right: 343px;
+}
+
+div#linha-1 a {
+    color: #ffffff;
+}
+
+div#linha-1 a:hover {
+    transition: 1.5s;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 4px black;
+}
+
+a#p1 {
+    position: absolute;
+    top: 10px;
+    right: 390px;
+    text-decoration: none;
+}
+
+a#p2 {
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    text-decoration: none;
+}
+
+ /*Formatação cabecalho 2*/
+
+ div#linha-2 {
+     width: 100%;
+     height: 93px;
+     background-color: #C5C6C7;
+     margin-left: -10px;
+     padding-left: 18px;
+ }
+
+ img#logo-01{
+     width: 340px;
+     height: 225px;
+     position: relative;
+     top: -65px;
+     left: 100px;
+ }
+
+ div#linha-2 a {
+     text-decoration: none;
+     position: relative;
+     top: -175px;
+     left: 500px;
+     padding-left: 30px;
+     color: #838383;
+ }
+
+ div#linha-2 a:hover {
+    transition: 1s;
+    color: #ffffff;
+ }
+
+ /*Formatação background-foto*/
+
+ div#linha-3 {
+     width: 100%;
+     height: 550px;
+     background: url('_imagens/pexels-lorenzo-241544.jpg') no-repeat;
+     padding-left: 18px;
+     margin-left: -10px;
+ }
+
+ div#linha-3 img {
+     position: relative;
+     width: 1150px;
+     left: 180px;
+     top: 135px;
+ }
+
+ div#linha-3 h2 {
+     position: absolute;
+     text-align: center;
+     left: 230px;
+     top: 300px;
+     font-size: 30pt;
+     color: #ffffff;
+ }
+
+ div#linha-3 h2:hover {
+     transition: 2s;
+     background-color: rgba(92, 92, 92 ,0.4)
+ }
+
+ /*Formatação meio pagina*/
+
+div#linha-4 {
+    height: 369px;
+    width: 100%;
+}
+
+div#linha-4 img {
+    position: relative;
+    left:340px;
+    padding: 100px;
+    height: 85px;
+    width: 85px;
+}
+
+div#linha-4 h2:hover {
+    transition: 1.5s;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 3px 4px black;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'FonteLogo';
+    color: #838383;
+}
+
+h2#homet {
+    position: absolute;
+    font-size: 20pt;
+    left: 450px;
+    bottom: -250px;
+}
+
+h2#jobt {
+    position: absolute;
+    font-size: 20pt;
+    left: 748px;
+    bottom: -250px;
+}
+
+h2#contatot {
+    position: absolute;
+    font-size: 20pt;
+    left: 1000px;
+    bottom: -250px;
+}
+
+/*Formatação formulario central*/
+
+div#linha-5{
+    width: 100%;
+    height: 600px;
+    background-color: #A3A3A3;
+    margin-left: -10px;
+    padding-left: 18px;
+    
+}
+
+div#linha-5 h2 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+div#linha-5 h2 span {
+    text-decoration: underline;    
+}
+
+div#linha-5 input#caixa1 {
+    width: 950px;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    left: 260px;
+    background-color: #A3A3A3;
+    border-radius: 15px;
+    font-size: 15pt;
+    color: #ffffff;
+    text-indent: 10px; 
+}
+
+div#linha-5 input#caixa2 {
+    width: 950px;
+    height: 50px;
+    position: relative;
+    bottom: -90px;
+    left: 260px;
+    background-color: #A3A3A3;
+    border-radius: 15px;
+    font-size: 15pt;
+    color: #ffffff;
+    text-indent: 10px;
+}
+
+div#linha-5 input#bt1 {
+    width: 222px;
+    height: 62px;
+    position: relative;  
+    right: 330px;
+    top: 200px;
+    border-radius: 50px;
+    background-color: black;
+    font-family: 'FonteLogo';
+    color: #ffffff;
+    border: none;
+}
+
+div#linha-5 input#bt1:hover {
+    background-color: rgba(90, 90, 90, 0.5);
+    transition: 1s;
+}
+
+/*Formatação Quem sou*/
+
+div#linha-6 {
+    width: 100%;
+    height: 600px;
+}
+
+div#linha-6 h2#titulo {
+    color: #000000;
+    text-align: center;
+    font-size: 20pt;
+}
+
+div#linha-6 h2#nome {
+    text-align: left;
+    position: absolute;
+    left: 520px;
+    top: -80px;
+    color: #000000;
+}
+
+div#linha-6 p#sobre {
+    text-align: left;
+    position: relative;
+    width: 50%;
+    left: 520px;
+    top: -50px;
+    color: #000000;
+    font-size: 14pt;
+    font-family: sans-serif;
+    text-shadow: 0px 1px 3px #000000;
+}
+
+div#linha-6 img#barra {
+    position: relative;
+    left: 720px;
+    top: -190px;
+    width: 70px;
+    height: 10px;
+}
+
+div#linha-6 img#duardo {
+    position: relative;
+    top: 110px;
+    left: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+/*Formatação JOBS*/
+
+div#linha-7 {
+    width: 100%;
+    height: 740px;
+    margin-left: -10px;
+    padding-right: 17px;
+    background-color: #A3A3A3;
+}
+
+div#linha-7 h2#titulo-2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20pt;
+    position: relative;
+    top: 50px;
+}
+
+div#linha-7 img#barra-1 {
+    position: absolute;
+    left: 714px;
+    top: 2420px;
+    width: 70px;
+    height: 10px;
+}
+
+div#linha-7 img.logos {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 400px;
+    height: 155px;
+}
+
+div#linha-7 h3 {
+    position: relative;
+    top: 110px;
+    left: 140px;
+    font-family: 'FonteLogo';
+    color: #ffffff;
+    font-size: 18pt;
+    font-style: bolder;
+    text-shadow: 0px 1px 3px;
+}
+
+div#linha-7 h3#h3-1 {
+    position: relative;
+    top: 58px;
+    left: 580px;
+}
+
+div#linha-7 h3#h3-2 {
+    position: relative;
+    top:5px;
+    left: 1030px;
+}
+
+div#linha-7 p {
+    position: relative;
+    text-align: center;
+    top: 40px;
+    left: 150px;
+    color: #ffffff;
+    width: 20%;
+    font-family: sans-serif;
+    font-size: 13pt;
+    text-shadow: 0px 0px 2px;
+}
+
+div#linha-7 p#p-1 {
+    position: relative;
+    top: -105px;
+    left: 593px;
+}
+
+div#linha-7 p#p-2 {
+    position: relative;
+    top: -250px;
+    left: 1030px;
+}
+
+div#linha-7 input {
+    position: absolute;
+    top: 2950px;
+    left: 220px;
+    border-radius: 50px;
+    background-color: black;
+    font-family: 'FonteLogo';
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 12pt;
+}
+
+div#linha-7 input:hover {
+    background-color: rgba(90, 90, 90, 0.5);
+    transition: 1s;
+}
+
+div#linha-7 input#inpt1 {
+    position: absolute;
+    top: 2940px;
+    left: 665px;
+}
+
+div#linha-7 input#inpt2 {
+    position: absolute;
+    top: 2910px;
+    left: 1110px;
+}
+
+/*Formatação Contato*/
+
+div#linha-8 {
+    height: 500px;
+    background-color: #ffffff;
+}
+
+div#linha-8 h2#titulo {
+    color: #000000;
+    text-align: center;
+    font-size: 20pt;
+    position: relative;
+    top: 50px;
+}
+
+div#linha-8 img#barra-preta {
+    position: relative;
+    left: 718px;
+    top: 40px;
+    width: 70px;
+    height: 10px;
+}
+div#linha-8 input#caixa1 {
+    width: 500px;
+    height: 40px;
+    position: relative;
+    bottom: -90px;
+    left: 438px;
+    background-color: none;
+    border-radius: 20px;
+    font-size: 11pt;
+    font-family: 'FonteLogo';
+    color: #000000;
+    text-indent: 10px;
+    margin-bottom: 25px;
+}
+
+div#linha-8 input#caixa2 {
+    width: 500px;
+    height: 42px;
+    position: relative;
+    bottom: -90px;
+    left: 510px;
+    background-color: none;
+    border-radius: 20px;
+    font-size: 11pt;
+    color: #000000;
+    text-indent: 10px;
+    font-family: 'FonteLogo';
+    margin-bottom: 22px;
+}
+
+div#linha-8 input#caixa3 {
+    width: 700px;
+    height: 100px;
+    position: relative;
+    bottom: -90px;
+    left: 400px;
+    background-color: none;
+    border-radius: 40px;
+    font-size: 10pt;
+    color: #000000;
+    text-indent: 10px;
+    font-family: 'FonteLogo';
+}
+
+div#linha-8 input#bt1 {
+    width: 222px;
+    height: 62px;
+    position: relative;  
+    right: 50px;
+    top: 200px;
+    border-radius: 50px;
+    background-color: black;
+    font-family: 'FonteLogo';
+    color: #ffffff;
+    border: none;
+}
+
+div#linha-8 input#bt1:hover {
+    background-color: rgba(90, 90, 90, 0.5);
+    transition: 1s;
+}
+
+div#linha-8 img {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+div#linha-8 img#img1{
+    right: 1200px;
+    top: 3200px;
+}
+
+div#linha-8 img#img2{
+    left: 1200px;
+    top: 3200px;
+}
+
+/*Formatação rodape*/
+
+footer {
+    background-color: #A3A3A3;
+    margin-left: -20px;
+    padding-left: 23px;
+    width: 100%;    
+}
+
+footer img {
+    width: 600px;
+    height: 350px;
+    position: relative;
+    left: 450px;
+}
